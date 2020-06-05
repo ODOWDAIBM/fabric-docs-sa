@@ -1,76 +1,52 @@
-# Hyperledger Fabric [![join the chat][rocketchat-image]][rocketchat-url]
+# Fabric Docs SA
 
-[rocketchat-url]: https://chat.hyperledger.org/channel/fabric
-[rocketchat-image]: https://open.rocket.chat/images/join-chat.svg
+A project to translate the Fabric documentation into Sanskrit.
 
-[![Build Status](https://dev.azure.com/Hyperledger/Fabric/_apis/build/status/Merge?branchName=master)](https://dev.azure.com/Hyperledger/Fabric/_build/latest?definitionId=51&branchName=master)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/955/badge)](https://bestpractices.coreinfrastructure.org/projects/955)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hyperledger/fabric)](https://goreportcard.com/report/github.com/hyperledger/fabric)
-[![GoDoc](https://godoc.org/github.com/hyperledger/fabric?status.svg)](https://godoc.org/github.com/hyperledger/fabric)
-[![Documentation Status](https://readthedocs.org/projects/hyperledger-fabric/badge/?version=master)](http://hyperledger-fabric.readthedocs.io/en/master/?badge=master)
+ अ  प्रोजेच्त  तो त्रन्स्लते थे Fअब्रिच्  दोचुमेन्ततिओन्  इन्तो  संस्कृत.
 
-This project is an _Active_ Hyperledger project. For more information on the history of this project see the [Fabric wiki page](https://wiki.hyperledger.org/display/fabric). Information on what _Active_ entails can be found in
-the [Hyperledger Project Lifecycle document](https://wiki.hyperledger.org/display/HYP/Project+Lifecycle).
-Hyperledger Fabric is a platform for distributed ledger solutions, underpinned
-by a modular architecture delivering high degrees of confidentiality,
-resiliency, flexibility and scalability. It is designed to support pluggable
-implementations of different components, and accommodate the complexity and
-intricacies that exist across the economic ecosystem.
+# Scope of Lab
 
-Hyperledger Fabric delivers a uniquely elastic and extensible architecture,
-distinguishing it from alternative blockchain solutions. Planning for the
-future of enterprise blockchain requires building on top of a fully-vetted,
-open source architecture; Hyperledger Fabric is your starting point.
+The purpose of this lab is to translate the Fabric documentation into Sanskrit.
+We will use this repository to sync with the latest English version of
+Hyperledger Fabric, starting with version 2.1.
 
-## Releases
+For subsequent releases, any update to source files will be translated in a new
+release base branch. Issues are used to track what to update in the changed
+docs.
 
-Fabric releases and release notes can be found on the [GitHub releases page](https://github.com/hyperledger/fabric/releases).
+ठे पुर्पोसे ओf थिस् लब् इस् तो त्रन्स्लते थे Fअब्रिच् दोचुमेन्ततिओन् इन्तो
+ंअलयलम्. Wए wइल्ल् उसे थिस् रेपोसितोर्य् तो स्य्न्च् wइथ् थे लतेस्त् Eन्ग्लिस्ह्
+वेर्सिओन् ओf ःय्पेर्लेद्गेर् Fअब्रिच्, स्तर्तिन्ग् wइथ् वेर्सिओन् 2.1..
 
-Please visit the [Hyperledger Fabric Jira dashboard](https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10104) for our release roadmap. We plan on a quarterly release cadence, delivering on a scoped set of themes and select features. Unless specified otherwise, all releases will be upgradable from the prior minor release.
+Fओर् सुब्सेqउएन्त् रेलेअसेस्, अन्य् उप्दते तो सोउर्चे fइलेस् wइल्ल् बे
+त्रन्स्लतेद् इन् अ नेw रेलेअसे बसे ब्रन्च्ह्. ईस्सुएस् अरे उसेद् तो त्रच्क् wहत्
+तो उप्दते इन् थे च्हन्गेद् दोच्स्.
 
-## Documentation, Getting Started and Developer Guides
+The original online documentation is: http://hyperledger-fabric.readthedocs.io/
 
-Please visit our
-online documentation for
-information on getting started using and developing with the fabric, SDK and chaincode:
-- [v2.1](http://hyperledger-fabric.readthedocs.io/en/release-2.1/)
-- [v2.0](http://hyperledger-fabric.readthedocs.io/en/release-2.0/)
-- [v1.4](http://hyperledger-fabric.readthedocs.io/en/release-1.4/)
-- [v1.3](http://hyperledger-fabric.readthedocs.io/en/release-1.3/)
-- [v1.2](http://hyperledger-fabric.readthedocs.io/en/release-1.2/)
-- [v1.1](http://hyperledger-fabric.readthedocs.io/en/release-1.1/)
-- [v1.0](http://hyperledger-fabric.readthedocs.io/en/release-1.0/)
-- [master branch (development)](http://hyperledger-fabric.readthedocs.io/en/master/)
+The Sanskrit online documentation is: https://hyperledger-fabric-sa.readthedocs.io/sa/latest/
 
-It's recommended for first-time users to begin by going through the Getting Started section of the documentation in order to gain familiarity with the Hyperledger Fabric components and the basic transaction flow.
+थे  ओरिगिनल्  ओन्लिने  दोचुमेन्ततिओन्  इस ：http://hyperledger-fabric.readthedocs.io/
 
-## Contributing
+थे  संस्कृत  ओन्लिने  दोचुमेन्ततिओन्  इस ：https://hyperledger-fabric-sa.readthedocs.io/sa/latest/
 
-We welcome contributions to the Hyperledger Fabric project in many forms.
-There’s always plenty to do! Check [the documentation on how to contribute to this project](http://hyperledger-fabric.readthedocs.io/en/latest/CONTRIBUTING.html)
-for the full details.
+# Initial Committers - പईनितिअल् छोम्मित्तेर्स्
 
-## Testing
-Check [the documentation](testingInfo.rst) for information on the testing structure that the project follows.
+* Anthony O'Dowd - a_o-dowd@uk.ibm.com
 
-## Community
+# Sponsors - ष्पोन्सोर्स्
 
-[Hyperledger Community](https://www.hyperledger.org/community)
+* Arnaud Le Hors - lehors@us.ibm.com
+* David Boswell - dboswell@linuxfoundation.org
 
-[Hyperledger mailing lists and archives](http://lists.hyperledger.org/)
+# Want to contribute? - वन्त  तो  चोन्त्रिबुते
 
-[Hyperledger Chat](http://chat.hyperledger.org/channel/fabric)
+Visit wiki page: https://wiki.hyperledger.org/display/TWGC/i18n+and+Education
+or contact:
 
-[Hyperledger Fabric Issue Tracking (JIRA)](https://jira.hyperledger.org/secure/Dashboard.jspa?selectPageId=10104)
+* Anthony O'Dowd - a_o-dowd@uk.ibm.com (GitHubID: odowdaibm)
 
-[Hyperledger Fabric Wiki](https://wiki.hyperledger.org/display/Fabric)
+विसीत  विकी  पागे： https://wiki.hyperledger.org/display/TWGC/i18n+and+Education
+ओर् चोन्तच्त्：
 
-[Hyperledger Wiki](https://wiki.hyperledger.org/)
-
-[Hyperledger Code of Conduct](https://wiki.hyperledger.org/display/HYP/Hyperledger+Code+of+Conduct)
-
-[Community Calendar](https://wiki.hyperledger.org/display/HYP/Calendar+of+Public+Meetings)
-
-## License <a name="license"></a>
-
-Hyperledger Project source code files are made available under the Apache License, Version 2.0 (Apache-2.0), located in the [LICENSE](LICENSE) file. Hyperledger Project documentation files are made available under the Creative Commons Attribution 4.0 International License (CC-BY-4.0), available at http://creativecommons.org/licenses/by/4.0/.
+* Anthony O'Dowd - a_o-dowd@uk.ibm.com (GitHubID: odowdaibm)
